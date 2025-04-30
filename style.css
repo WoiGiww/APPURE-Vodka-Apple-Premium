@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  
+  
+  .hero-section {
+    background-image: url("image/bar2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  .nav-wrapper {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  
+  summary.nav-btn {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .nav-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    width: auto;
+  }
+  
+  .nav-btn {
+    background: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .nav-toggle[open] .sidenav {
+    display: block;
+  }
+  
+  .sidenav {
+    background-color: #444446b7;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 10px;
+    display: none;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
+  .sidenav a,
+  .sidenav summary {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 6px 0;
+    cursor: pointer;
+  }
+  
+  .sidenav a:hover {
+    background-color: #5b5858;
+    padding-left: 10px;
+  }
+  
+  .subnav summary::after {
+    content: " ▼";
+  }
+  
+  .subnav[open] summary::after {
+    content: " ▲";
+  }
+  .header-utama {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .catalog-section {
+    padding: 2rem;
+    background-color: #0000008c;
+    color: #ffffff;
+  }
+  
+  .catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .card {
+    background: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  
+  footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+  }
